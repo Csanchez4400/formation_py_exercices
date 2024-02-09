@@ -5,7 +5,7 @@ chemin_fichier = r"C:\Users\Owner\Desktop\Udemy Python\Fichiers Py\list_cours_bd
 with open(chemin_fichier, 'r') as f:
     donnees = json.load(f)
 
-liste = [donnees]
+#liste = []
 options = ""
 
 while True:
